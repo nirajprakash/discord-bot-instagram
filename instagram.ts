@@ -7,6 +7,7 @@ import fs from 'fs';
 import path from 'path';
 import { config } from 'dotenv';
 import moment from "moment";
+import { ModelMe, ModelInstagram } from "./models";
 
 //).config();
 
@@ -256,22 +257,3 @@ export class Instagram {
 
 }
 
-export interface ModelMe {
-    id?: string
-    counts?: number,
-    profileUrl: string,
-    since?: string,
-    username: string,
-    lastPostId?: string
-}
-
-export interface ModelInstagram {
-
-    id: string,
-    media_url: string,
-    media_type: string,
-    thumbnail_url: string,
-    timestamp: string,
-    permalink: string,
-    caption: string
-}
