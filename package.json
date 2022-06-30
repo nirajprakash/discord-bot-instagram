@@ -1,0 +1,28 @@
+{
+  "name": "discord-instagram-bot",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "lint": "eslint \"src/**/*\"",
+    "build": "tsc",
+    "run": "node lib/index.js",
+    "watch": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "lib/index.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/moment": "^2.13.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "discord.js": "^13.8.1",
+    "dotenv": "^16.0.1",
+    "instagram-web-api": "^2.2.2",
+    "moment": "^2.29.3",
+    "node-fetch": "^3.2.6",
+    "query-string": "^7.1.1"
+  }
+}
